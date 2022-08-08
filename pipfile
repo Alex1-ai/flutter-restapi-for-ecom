@@ -18,6 +18,7 @@ django-storages = "*"
 boto3 = "*"
 django-cloudinary-storage = "*"
 whitenoise = "*"
+django-heroku = "*"
 
 [dev-packages]
 

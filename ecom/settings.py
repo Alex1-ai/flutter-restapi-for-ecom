@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
+import django_heroku
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
@@ -177,3 +178,4 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+django_heroku.settings(locals())
